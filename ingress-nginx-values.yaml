@@ -1,0 +1,6 @@
+controller:
+  hostNetwork: true
+  dnsPolicy: ClusterFirstWithHostNet
+  kind: DaemonSet
+  daemonset:
+    useHostPort: true
